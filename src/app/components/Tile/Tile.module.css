@@ -1,0 +1,17 @@
+.tile {
+  font-size: 2em;
+  color: currentColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.xHover:hover::after {
+  content: "X";
+  opacity: 0.4;
+}
+
+.oHover:hover::after {
+  content: "O";
+  opacity: 0.4;
+}

@@ -1,0 +1,19 @@
+.board {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  cursor: pointer;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 2em;
+  color: #865ab8;
+}
+
+.rightBorder {
+  border-right: 0.2em solid #865ab8;
+}
+
+.bottomBorder {
+  border-bottom: 0.2em solid #865ab8;
+}
